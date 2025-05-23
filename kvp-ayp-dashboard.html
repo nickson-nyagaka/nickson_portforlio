@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>KVP AYP Dashboard Gallery</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background: #f4f4f4;
+    }
+    h1 {
+      text-align: center;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+      margin-top: 30px;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      transition: transform 0.2s ease;
+    }
+    .gallery img:hover {
+      transform: scale(1.03);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>KVP & AYP Dashboard Screenshots</h1>
+  <div class="gallery">
+    <a href="images/Screenshot 2025-05-23 145139.png" target="_blank">
+      <img src="images/Screenshot 2025-05-23 145139.png" alt="Screenshot 1">
+    </a>
+    <a href="images/Screenshot 2025-05-23 145214.png" target="_blank">
+      <img src="images/Screenshot 2025-05-23 145214.png" alt="Screenshot 2">
+    </a>
+  </div>
+
+</body>
+</html>
